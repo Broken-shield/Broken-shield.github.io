@@ -1,64 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
-        <!-- Paramètres de la page -->
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
-        <!-- Éléments visuels -->
-        <title>Osthéopathe à Cognac | GuyonThomas</title>
-        <link rel="stylesheet" href="style/header.css"/>
-        <link rel="stylesheet" href="style/main.css"/>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ostéopathe à Cognac | GuyonThomas</title>
+        <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana">
-        <!-- <link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
-
-        <!-- SEO -->
-        <meta name="description" content="Enora Guyon & Victor Thomas, Osthéopathes sur Cognac"/>
-        <meta name="keywords" content="ostheopathe, doctolib, consultation, enora, guyon, victor, thomas, cognac"/>
-        <meta name="author" content="BrokenShield"/>
     </head>
-    <body>
-        <header id="header" class="header-div">
-            <div class="header-logo">
-                <a href="#accueil"><img src="assets/images/tmp-image.png" alt="Logo du cabinet" class="header-logo-image"/></a>
+    <body class="bg-green-900 overflow-hidden text-black font-[Verdana] h-screen flex flex-col">
+        <!-- Header -->
+        <header id="header" class="flex justify-between items-center bg-white shadow-md px-6 py-3 w-full z-50">
+            <div class="flex items-center">
+                <a href="./index.html">
+                    <img src="assets/images/tmp-image.png" alt="Logo du cabinet" class="h-16 object-contain" />
+                </a>
             </div>
-            <div class="header-nav-div">
-                <nav class="header-nav">
-                    <a href="">À Propos</a>
-                    <a href="">Les Consultations</a>
-                    <a href="">Le Cabinet</a>
-                    <a href="">Prendre Rendez-Vous</a>
-                </nav>
-            </div>
-            <div class="header-social">
-                <img src="assets/images/icons/fb-icon.png" style="width: 30px;height: 30px;"/>
-                <img src="assets/images/icons/ig-icon.png" style="width: 32px;height: 32px;"/>
+            <nav class="flex gap-6 uppercase font-bold text-xs">
+                <a href="./a-propos/index.html" class="hover:text-blue-600 transition-colors">À Propos</a>
+                <a href="#" class="hover:text-blue-600 transition-colors">Les Consultations</a>
+                <a href="#" class="hover:text-blue-600 transition-colors">Le Cabinet</a>
+                <a href="#" class="hover:text-blue-600 transition-colors">Rendez-Vous</a>
+            </nav>
+            <div class="flex gap-3">
+                <img src="assets/images/icons/fb-icon.png" alt="Facebook" class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform" />
+                <img src="assets/images/icons/ig-icon.png" alt="Instagram" class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform" />
             </div>
         </header>
-        <main class="main-div">
-            <div class="main-left-img-grid">
-                <div class="main-left-img-large">
-                    <img src="assets/images/main/main-img-1.jpg" alt="Enora qui fait des trucs"/>
+
+        <!-- Main Content -->
+        <main class="flex flex-1 overflow-hidden">
+            <!-- Left Images -->
+            <div class="w-1/2 flex flex-col gap-2 p-2">
+                <div class="w-full h-[45%] overflow-hidden rounded-md">
+                    <img src="assets/images/main/main-img-1.jpg" alt="Enora qui fait des trucs" class="w-full h-full object-cover" />
                 </div>
-                <div class="main-left-img-small">
-                    <div class="main-left-img-small-1">
-                        <img src="assets/images/main/main-img-2.jpg" alt="VT qui fait des trucs"/>
+                <div class="flex gap-2 h-[55%]">
+                    <div class="w-1/2 h-full overflow-hidden rounded-md">
+                        <img src="assets/images/main/main-img-2.jpg" alt="VT qui fait des trucs" class="w-full h-full object-cover" />
                     </div>
-                    <div class="main-left-img-small-2">
-                        <img src="assets/images/main/main-img-3.jpg" alt="Cab"/>
+                    <div class="w-1/2 h-full overflow-hidden rounded-md">
+                        <img src="assets/images/main/main-img-3.jpg" alt="Cab" class="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
-            <div class="main-right">
-                <div class="main-right-top">
-                    <h1>Enora Guyon & Victor Thomas</h1>
-                </div>
-                <div class="main-right-bottom">
-                    <p>Test</p>
-                </div>
+
+            <!-- Right Text -->
+            <div class="w-1/2 flex flex-col justify-center items-center text-center px-4">
+                <h1 class="text-2xl md:text-3xl font-bold text-white mb-2">Enora Guyon & Victor Thomas</h1>
+                <p class="text-white text-sm md:text-base">L'ostéopathie est une approche thérapeutique manuelle qui a pour but d'améliorer la mobilité et de réduire la douleur en intervenant sur différents systèmes (les protections neuromusculaires).<br/>Pour cela, l'ostéopathe utilise un panel de techniques qui peuvent dépendre de votre douleur, de vos antécédents mais aussi de vos attentes.<br/>Le thérapeute pratiquera notamment des mobilisations articulaires et musculaires, mais également des techniques abdominales, crâniennes, etc.<br/>L’objectif de votre ostéopathe est de vous aider à prévenir et guérir vos douleurs mais aussi de vous permettre de mieux appréhender les éventuelles récidives douloureuses.</p>
             </div>
         </main>
-        <footer>
+
+        <!-- Footer -->
+        <footer class="bg-black text-white text-center text-xs py-2">
+            &copy; 2025 Enora Guyon & Victor Thomas - Tous droits réservés.
         </footer>
     </body>
 </html>
