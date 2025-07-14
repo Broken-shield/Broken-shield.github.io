@@ -1,58 +1,189 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" style="scroll-behavior: smooth;">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ostéopathe à Cognac | GuyonThomas</title>
         <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana" />
     </head>
-    <body class="bg-green-900 overflow-hidden text-black font-[Verdana] h-screen flex flex-col">
+    <body class="bg-blue-100 font-[Verdana]">
+
         <!-- Header -->
-        <header id="header" class="flex justify-between items-center bg-white shadow-md px-6 py-3 w-full z-50">
-            <div class="flex items-center">
-                <a href="./index.html">
-                    <img src="assets/images/tmp-image.png" alt="Logo du cabinet" class="h-16 object-contain" />
+        <header class="fixed top-0 left-0 w-full bg-white shadow-md flex justify-between items-center px-8 py-4 z-50">
+            <div>
+                <a href="#accueil">
+                    <img src="assets/images/tmp-image.png" alt="Logo du cabinet" class="h-20 object-contain" />
                 </a>
             </div>
-            <nav class="flex gap-6 uppercase font-bold text-xs">
-                <a href="./a-propos/index.html" class="hover:text-blue-600 transition-colors">À Propos</a>
-                <a href="#" class="hover:text-blue-600 transition-colors">Les Consultations</a>
-                <a href="#" class="hover:text-blue-600 transition-colors">Le Cabinet</a>
-                <a href="#" class="hover:text-blue-600 transition-colors">Rendez-Vous</a>
+            <nav class="flex gap-10 uppercase font-bold text-sm">
+                <a href="#about" class="hover:text-blue-700">À Propos</a>
+                <a href="#consultation" class="hover:text-blue-700">Les Consultations</a>
+                <a href="#cabinet" class="hover:text-blue-700">Le Cabinet</a>
+                <a href="#rendez-vous" class="hover:text-blue-700">Prendre Rendez-Vous & Infos Pratiques</a>
             </nav>
-            <div class="flex gap-3">
-                <img src="assets/images/icons/fb-icon.png" alt="Facebook" class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform" />
-                <img src="assets/images/icons/ig-icon.png" alt="Instagram" class="w-6 h-6 cursor-pointer hover:scale-110 transition-transform" />
+            <div class="flex gap-4">
+                <img src="assets/images/icons/fb-icon.png" alt="Facebook" class="w-8 h-8 cursor-pointer" />
+                <img src="assets/images/icons/ig-icon.png" alt="Instagram" class="w-8 h-8 cursor-pointer" />
+                <a href="https://google.fr"><img src="assets/images/icons/dct-icon.png" alt="Logo Doctolib" class="rounded-md mb-6 max-w-full h-8"/></a>
             </div>
         </header>
 
-        <!-- Main Content -->
-        <main class="flex flex-1 overflow-hidden">
-            <!-- Left Images -->
-            <div class="w-1/2 flex flex-col gap-2 p-2">
-                <div class="w-full h-[45%] overflow-hidden rounded-md">
-                    <img src="assets/images/main/main-img-1.jpg" alt="Enora qui fait des trucs" class="w-full h-full object-cover" />
-                </div>
-                <div class="flex gap-2 h-[55%]">
-                    <div class="w-1/2 h-full overflow-hidden rounded-md">
-                        <img src="assets/images/main/main-img-2.jpg" alt="VT qui fait des trucs" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-1/2 h-full overflow-hidden rounded-md">
-                        <img src="assets/images/main/main-img-3.jpg" alt="Cab" class="w-full h-full object-cover" />
-                    </div>
-                </div>
-            </div>
+        <!-- Main -->
+        <main class="pt-[110px]">
 
-            <!-- Right Text -->
-            <div class="w-1/2 flex flex-col justify-center items-center text-center px-4">
-                <h1 class="text-2xl md:text-3xl font-bold text-white mb-2">Enora Guyon & Victor Thomas</h1>
-                <p class="text-white text-sm md:text-base">L'ostéopathie est une approche thérapeutique manuelle qui a pour but d'améliorer la mobilité et de réduire la douleur en intervenant sur différents systèmes (les protections neuromusculaires).<br/>Pour cela, l'ostéopathe utilise un panel de techniques qui peuvent dépendre de votre douleur, de vos antécédents mais aussi de vos attentes.<br/>Le thérapeute pratiquera notamment des mobilisations articulaires et musculaires, mais également des techniques abdominales, crâniennes, etc.<br/>L’objectif de votre ostéopathe est de vous aider à prévenir et guérir vos douleurs mais aussi de vous permettre de mieux appréhender les éventuelles récidives douloureuses.</p>
+            <!-- Welcome -->
+            <section id="accueil" class="flex flex-col md:flex-row h-[calc(100vh-110px)]">
+            <div class="w-full md:w-1/2 flex flex-col">
+                <div class="h-[60%]">
+                    <img src="assets/images/main/main-img-1.jpg" class="w-full h-full object-cover" alt="Image 1" />
+                </div>
+                <div class="h-[40%] flex">
+                    <div class="w-1/2">
+                        <img src="assets/images/main/main-img-2.jpg" class="w-full h-full object-cover" alt="Image 2" />
+                    </div>
+                    <div class="w-1/2">
+                        <img src="assets/images/main/main-img-3.jpg" class="w-full h-full object-cover" alt="Image 3" />
+                    </div>
+                </div>
             </div>
+                <div class="w-full md:w-1/2 flex flex-col justify-center items-center text-center px-6">
+                    <h1 class="text-4xl md:text-5xl font-bold text-blue-700">Enora Guyon & Victor Thomas</h1>
+                    <p class="text-lg md:text-xl mt-4">Ostéopathes à Cognac - Bienvenue sur notre site !</p>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section id="about" class="py-20 px-6 scroll-mt-32">
+                <div class="max-w-4xl mx-auto flex flex-col items-center text-center gap-10">
+                    <div>
+                        <h2 class="text-4xl md:text-5xl font-bold text-blue-700 mb-6">Qu'est-ce que l'ostéopathie&nbsp;?</h2>
+                        <p class="text-lg md:text-xl leading-relaxed">
+                            L'ostéopathie est une approche thérapeutique manuelle qui a pour but d'améliorer la mobilité
+                            et de réduire la douleur en intervenant sur différents systèmes (les protections neuromusculaires).<br/><br/>
+                            Pour cela, l'ostéopathe utilise un panel de techniques qui peuvent dépendre de votre douleur,
+                            de vos antécédents mais aussi de vos attentes. Le thérapeute pratiquera notamment des mobilisations
+                            articulaires et musculaires, mais également des techniques abdominales, crâniennes, etc.<br/><br/>
+                            L'objectif de votre ostéopathe est de vous aider à prévenir et guérir vos douleurs mais aussi
+                            de vous permettre de mieux appréhender les éventuelles récidives douloureuses.
+                        </p>
+                    </div>
+                    <div>
+                        <h2 class="text-4xl md:text-5xl font-bold text-blue-700 mb-6">L'ostéopathie à votre service</h2>
+                        <ul class="text-lg md:text-xl leading-relaxed space-y-1">
+                            <li>Comprendre et prévenir la douleur</li>
+                            <li>Améliorer la mobilité</li>
+                            <li>Préparer et suivre le corps sur des pratiques sportives</li>
+                            <li>Accompagner le développement psycho-moteur des enfants</li>
+                            <li>Réduire le stress et l'anxiété</li>
+                            <li>Prévenir les déséquilibres liés au travail sédentaire</li>
+                            <li>Favoriser la récupération après des traumatismes</li>
+                            <li>Compléter certains traitements (migraines, troubles digestifs...)</li>
+                            <li>Apaiser les douleurs liées à la grossesse</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Consultations -->
+            <section id="consultation" class="min-h-screen px-6 py-20 flex items-center justify-center scroll-mt-32">
+                <div class="max-w-7xl w-full flex flex-col md:flex-row gap-12 text-center md:text-left">
+                    <div class="w-full md:w-1/2 space-y-6">
+                        <h2 class="text-4xl md:text-5xl font-bold text-blue-700">Les consultations</h2>
+                        <p class="text-lg md:text-xl leading-relaxed">
+                            Une consultation débute par un échange qui vise à bien cibler votre 
+                            problématique mais également à retracer votre historique médical,
+                            afin d'adapter le traitement à vos spécificités.<br/><br/>
+                            Elle se poursuit par une série de tests permettant de déterminer si
+                            votre situation relève de l'Ostéopathie ou d'un autre domaine
+                            médical. Ces tests serviront également à élaborer un plan de
+                            traitement spécifique pour répondre au mieux à vos besoins.<br/><br/>
+                            Après avoir discuté ensemble de votre situation et de la méthode de
+                            traitement, avec votre accord, l'ostéopathe commencera la prise en
+                            charge. Il peut utiliser diverses techniques telles que le myo-fascial,
+                            l'articulaire, le viscéral et le crânien. Il veillera à prendre en charge
+                            toutes vos douleurs de manière globale.<br/><br/>
+                            En conclusion, l'ostéopathe vous prodiguera des conseils sur les
+                            bonnes pratiques à adopter au quotidien pour mieux gérer les
+                            problèmes que vous rencontrez.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/2 space-y-6">
+                        <h2 class="text-4xl md:text-5xl font-bold text-blue-700">Tarifs & Remboursements</h2>
+                        <p class="text-lg md:text-xl leading-relaxed font-bold">60€ La consultation</p>
+                        <p class="text-lg md:text-xl leading-relaxed">
+                            La Sécurité sociale ne prend pas en charge les consultations en ostéopathie.<br/><br/>
+                            En revanche, de plus en plus de mutuelles procèdent au remboursement de toute ou partie de la
+                            consultation ostéopathique. Les conditions sont extrêmement variables en fonction des
+                            compagnies d'assurances et des contrats souscrits.<br/><br/>
+                            Pour pouvoir vous faire rembourser votre séance d'ostéopathie, il faut demander à votre praticien
+                            une facture.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Le Cabinet -->
+            <section id="cabinet" class="bg-blue-100 h-screen px-6 py-6 flex flex-col scroll-mt-32">
+                <h2 class="text-4xl md:text-5xl font-bold text-blue-700 text-center mb-6">Le Cabinet</h2>
+                <div class="flex flex-col md:flex-row gap-6 justify-between text-base md:text-lg leading-relaxed mb-6 text-center md:text-left">
+                    <p class="md:w-1/2">
+                    Ce cabinet se met régulièrement à jour des nouvelles données scientifiques afin de développer
+                    l'approche la plus cohérente possible.<br /><br />
+                    Nous sommes également formés à tout type de patients allant du nourrisson aux séniors, en
+                    passant par les sportifs et les femmes enceintes par le biais de formations réalisées dans ces
+                    domaines.
+                    </p>
+                    <p class="md:w-1/2">
+                    Avant toute chose, par le biais de l'entretien et de l'examen clinique, l'ostéopathe s'assure que le
+                    problème présenté relève bien de son ressort.<br /><br />
+                    En cas de doute, vous serez ré-adressé à votre médecin traitant pour avis médical et éventuels
+                    examens complémentaires.
+                    </p>
+                </div>
+                <div class="flex-1">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 h-full">
+                    <img src="assets/images/main/main-img-1.jpg" alt="Cabinet 1" class="w-full h-full object-cover rounded-md" />
+                    <img src="assets/images/main/main-img-1.jpg" alt="Cabinet 2" class="w-full h-full object-cover rounded-md" />
+                    <img src="assets/images/main/main-img-1.jpg" alt="Cabinet 3" class="w-full h-full object-cover rounded-md" />
+                    <img src="assets/images/main/main-img-1.jpg" alt="Cabinet 4" class="w-full h-full object-cover rounded-md" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- Rendez-vous -->
+<!-- Rendez-vous -->
+<section id="rendez-vous" class="py-20 px-6 md:px-20 scroll-mt-32 w-full">
+    <h2 class="text-4xl md:text-5xl font-bold text-blue-700 text-center mb-12">Prendre Rendez-vous & Infos Pratiques</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12 text-center md:text-left max-w-[1200px] mx-auto">
+        <div>
+            <h3 class="text-2xl font-semibold text-blue-700 mb-4">Accessibilité</h3>
+            <p>2 rue du caca boudin</p>
+            <a href="#" class="text-blue-600 hover:underline block mb-2">Voir sur Google Maps</a>
+            <p>Accessibilité PMR</p>
+            <p>Arrêt CACA<br />Ligne 69, 420, 2000</p>
+        </div>
+        <div>
+            <h3 class="text-2xl font-semibold text-blue-700 mb-4">Les Horaires</h3>
+            <p>Du lundi au vendredi<br />9h00 - 18h00</p>
+        </div>
+        <div>
+            <h3 class="text-2xl font-semibold text-blue-700 mb-4">Contact</h3>
+            <p>Téléphone : 07 76 22 10 78</p>
+            <p>Email : <a href="mailto:contact@gmail.com" class="text-blue-600 hover:underline">contact@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="flex flex-col items-center max-w-[1200px] mx-auto px-6 md:px-0">
+        <img src="assets/images/icons/dct-icon.png" alt="Logo Doctolib" class="rounded-md mb-6 max-w-full h-16" />
+        <button class="bg-blue-700 text-white uppercase font-bold py-3 px-8 rounded hover:bg-blue-800 transition" onclick="window.location='https://www.google.fr'">
+            Prendre rendez-vous
+        </button>
+    </div>
+</section>
         </main>
 
         <!-- Footer -->
-        <footer class="bg-black text-white text-center text-xs py-2">
+        <footer class="bg-black text-white text-center text-xs py-4">
             &copy; 2025 Enora Guyon & Victor Thomas - Tous droits réservés.
         </footer>
     </body>
