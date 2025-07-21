@@ -1,0 +1,22 @@
+@import url("https://fonts.google.com/specimen/Quicksand");
+
+@keyframes slide-down {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.animate-slide-down {
+    animation: slide-down 0.3s ease-out forwards;
+}
+
+.slide-left {
+transform: translateX(-30px);
+}
+
+.slide-right {
+transform: translateX(30px);
+}
+
+.animate-on-scroll.appear {
+opacity: 1;
+transform: translateX(0);
+}
