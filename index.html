@@ -14,6 +14,7 @@
         <link rel="stylesheet"  href="index.style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
+
     <body class="bg-white font-[Quicksand] text-[black]">
         <!-- Header -->
         <header class="sticky top-0 z-50 shadow-md bg-white">
@@ -22,10 +23,11 @@
                 <a href="#accueil"><img src="assets/logo/cab-logo.png" alt="Logo du cabinet d'ostéopathie" class="h-16 object-contain" /></a>
                 <button id="burger-toggle" class="md:hidden text-3xl text-[#0c2c56] focus:outline-none"> ☰ </button>
                 <nav class="hidden md:flex gap-6 uppercase font-bold text-sm text-[#0c2c56]">
-                    <a href="#about" class="hover:text-blue-700">À Propos</a>
-                    <a href="#consultation" class="hover:text-blue-700">Les Consultations</a>
-                    <a href="#cabinet" class="hover:text-blue-700">Le Cabinet</a>
-                    <a href="#rendez-vous" class="hover:text-blue-700">Infos Pratiques</a>
+                    <a href="#a-propos" class="hover:text-blue-700">À Propos</a>
+                    <a href="#les-consultations" class="hover:text-blue-700">Les Consultations</a>
+                    <a href="#tarifs-remboursements" class="hover:text-blue-700">Tarifs & Remboursements</a>
+                    <a href="#le-cabinet" class="hover:text-blue-700">Le Cabinet</a>
+                    <a href="#info-rendez-vous" class="hover:text-blue-700">Infos Pratiques & Prendre Rendez-Vous</a>
                 </nav>
                 <div class="hidden md:flex gap-4">
                     <a href="http://facebook.com/CabinetdOsteopathieCognac">
@@ -41,10 +43,11 @@
             </div>
             <!-- Header - Mobile -->
             <div id="mobile-menu" class="transition-all overflow-hidden max-h-0 duration-500 ease-in-out md:hidden flex-col text-center uppercase font-bold text-sm text-[#0c2c56] space-y-2 mt-4">
-                <a href="#about" class="block py-2 border-b border-gray-200">À Propos</a>
-                <a href="#consultation" class="block py-2 border-b border-gray-200">Les Consultations</a>
-                <a href="#cabinet" class="block py-2 border-b border-gray-200">Le Cabinet</a>
-                <a href="#rendez-vous" class="block py-2">Infos Pratiques</a>
+                <a href="#a-propos" class="block py-2 border-b border-gray-200">À Propos</a>
+                <a href="#les-consultations" class="block py-2 border-b border-gray-200">Les Consultations</a>
+                <a href="#tarifs-remboursements" class="block py-2 border-b border-gray-200">Tarifs & Remboursements</a>
+                <a href="#le-cabinet" class="block py-2 border-b border-gray-200">Le Cabinet</a>
+                <a href="#info-rendez-vous" class="block py-2">Infos Pratiques & Prendre Rendez-Vous</a>
                 <div class="flex justify-center gap-4 py-2">
                     <a href="http://facebook.com/CabinetdOsteopathieCognac">
                         <img src="assets/logo/fb-icon.png" alt="Logo de l'application Facebook" class="w-6 h-6" />
@@ -58,6 +61,7 @@
                 </div>
             </div>
         </header>
+
         <main>
             <!-- Accueil -->
             <section id="accueil" class="bg-white py-12 px-4">
@@ -88,6 +92,174 @@
                     </div>
                     <div class="order-1 md:order-2">
                         <img src="assets/images/accueil/PHOTO 2.png" alt="Photo spécialités" class="w-full h-auto rounded-md shadow-md" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- À propos -->
+            <section id="a-propos" class="bg-white py-12 px-4 space-y-20">
+                <div>
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Qu'est-ce que l'ostéopathie ?</h2>
+                    </div>
+                    <div class="w-full animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4 text-center">
+                        <p>L'ostéopathie est une méthode de soin manuelle qui vise à améliorer la mobilité du corps et à soulager les douleurs, notamment d'origine musculo-squelettique (articulations, muscles, tendons).</p>
+                        <p>Elle repose sur une approche globale du corps : l'ostéopathe cherche à comprendre l'origine des troubles en considérant les liens entre les différents systèmes (musculaire, articulaire, digestif, crânien, etc.).</p>
+                        <p>Un ensemble de techniques adaptées à chaque patient est utilisé, en fonction de la douleur, des antécédents et des attentes.</p>
+                        <p>Ces techniques peuvent inclure des mobilisations articulaires et musculaires, des manipulations abdominales, crâniennes ou encore tissulaires.</p>
+                        <p>L'ostéopathie ne remplace pas la médecine conventionnelle mais la complète efficacement.</p>
+                        <p>L'objectif est d'aider le corps à retrouver son équilibre, de prévenir les douleurs et de mieux gérer les éventuelles récidives.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">L'ostéopathie à votre service</h2>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-12 items-start animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out">
+                        <div class="text-gray-700 text-base md:text-lg leading-relaxed space-y-4 text-left">
+                            <p>
+                                L'ostéopathie s'adresse à tous : nourrissons, enfants, adolescents, adultes, seniors et sportifs.<br/>
+                                Chacun peut bénéficier d'un accompagnement personnalisé, en fonction de ses besoins, de son mode de vie et de son état de santé.
+                            </p>
+                            <p>Cette approche permet notamment de :</p>
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>Comprendre et prévenir les douleurs</li>
+                                <li>Améliorer la mobilité et la posture</li>
+                                <li>Préparer et accompagner le corps dans une pratique sportive</li>
+                                <li>Favoriser la récupération après un traumatisme ou une intervention</li>
+                                <li>Réduire le stress et l'anxiété</li>
+                                <li>Prévenir les déséquilibres liés au travail sédentaire</li>
+                                <li>Apaiser les douleurs liées à la grossesse ou au post-partum</li>
+                                <li>Accompagner le développement psycho-moteur des enfants</li>
+                                <li>
+                                    Compléter certains traitements médicaux, notamment en cas de :
+                                    <ul class="list-disc list-inside pl-6 mt-2 space-y-1">
+                                    <li>Troubles musculo-squelettiques : mal de dos, tensions musculaires, douleurs articulaires…</li>
+                                    <li>Troubles crâniens : migraines, céphalées, vertiges, troubles ORL, acouphènes, ATM…</li>
+                                    <li>Troubles digestifs : ballonnements, reflux, RGO, douleurs abdominales...</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="assets/images/a-propos/PHOTO 3.png" alt="Photo illustrant un mal de dos" class="w-full max-h-[600px] object-contain rounded-md shadow-md" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Les consultations -->
+            <section id="les-consultations">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Les consultations</h2>
+                </div>
+                <div class="flex flex-col md:flex-row items-center justify-between gap-8 animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out">
+                    <div class="w-full md:w-1/2">
+                        <img src="assets/images/les-consultations/PHOTO 4.png" alt="Photo illustrant une consultation ostéopathique" class="w-full h-auto max-h-[400px] object-cover rounded-md shadow-md" />
+                    </div>
+                    <div class="w-full md:w-1/2 text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                        <p>
+                            Une consultation ostéopathique commence par un échange approfondi visant à comprendre votre motif de consultation et à retracer votre parcours médical.
+                            Cet entretien permet d'adapter le traitement à vos besoins spécifiques.
+                        </p>
+                        <p>
+                            Vient ensuite une phase de tests cliniques destinés à évaluer si votre situation relève du champ de l'ostéopathie ou nécessite une orientation vers un autre professionnel de santé.
+                            Ces tests permettent également de construire un plan de traitement sur mesure.
+                        </p>
+                        <p>
+                            Après avoir discuté ensemble de la prise en charge envisagée, le traitement débute avec votre accord.
+                            L'ostéopathe utilise différentes techniques manuelles — musculaires, articulaires, viscérales, fasciales ou crâniennes — selon votre situation.
+                            L'approche reste toujours globale, en tenant compte de l'ensemble du corps.
+                        </p>
+                        <p>
+                            Enfin, des conseils personnalisés vous sont donnés pour prolonger les bienfaits de la séance et mieux gérer les douleurs au quotidien.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tarifs & Remboursements -->
+            <section id="tarifs-remboursements" class="mt-32">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Tarifs & Remboursements</h2>
+                </div>
+                <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-12">
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <div class="w-full max-w-xl divide-y divide-gray-300">
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation d'ostéopathie adulte</span>
+                                <span class="font-bold text-gray-900">60 €</span>
+                            </div>
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation femme enceinte</span>
+                                <span class="font-bold text-gray-900">60 €</span>
+                            </div>
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation sportif</span>
+                                <span class="font-bold text-gray-900">60 €</span>
+                            </div>
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation enfant (-12 ans)</span>
+                                <span class="font-bold text-gray-900">50 €</span>
+                            </div>
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation nourrisson (0 à 2 ans)</span>
+                                <span class="font-bold text-gray-900">50 €</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                        <p>
+                            La Sécurité sociale ne rembourse pas les consultations en ostéopathie.
+                        </p>
+                        <p>
+                            Cependant, de plus en plus de mutuelles offrent un remboursement partiel ou total des séances.
+                            Les modalités varient largement selon les compagnies d'assurance et les contrats choisis.
+                        </p>
+                        <p>
+                            Pour bénéficier d'un éventuel remboursement, il est important de demander une facture à votre praticien à l'issue de la consultation.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Le Cabinet -->
+            <section id="le-cabinet" class="mt-32 text-center">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Le cabinet</h2>
+                </div>
+                <div class="w-full mb-16 animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                    <p>
+                        Ce cabinet se tient régulièrement informé des dernières avancées scientifiques afin de proposer une approche toujours plus cohérente et adaptée.<br/>
+                        Nous bénéficions de formations spécialisées pour accompagner tous les profils de patients, du nourrisson aux seniors, en passant par les sportifs et les femmes enceintes.<br/>
+                        Lors de la première consultation, un entretien approfondi et un examen clinique permettent à l'ostéopathe de vérifier que la prise en charge relève bien de sa compétence.<br/>
+                        En cas de doute, une orientation vers votre médecin traitant sera proposée pour un avis médical et, si nécessaire, des examens complémentaires.
+                    </p>
+                    <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mt-4">
+                        <img src="assets/images/le-cabinet/PHOTO 5.png" class="w-full sm:w-[32%] max-h-[400px] object-cover rounded shadow-md" alt="Cabinet 1">
+                        <img src="assets/images/le-cabinet/PHOTO 6.png" class="w-full sm:w-[32%] max-h-[400px] object-cover rounded shadow-md" alt="Cabinet 2">
+                        <img src="assets/images/le-cabinet/PHOTO 7.png" class="w-full sm:w-[32%] max-h-[400px] object-cover rounded shadow-md" alt="Cabinet 3">
+                    </div>
+                </div>
+                <div class="w-full animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                    <p>
+                        Dans un souci d'innovation et de modernisation, notre cabinet utilise des appareils de mesure haute précision, notamment les technologies InBody et Kinvent.<br/>
+                        Ces outils permettent d'objectiver la pratique de l'ostéopathie en offrant un suivi personnalisé, précis et mesurable, que ce soit pour soulager une douleur, 
+                        améliorer la santé globale, optimiser la performance sportive ou accompagner la rééducation après une blessure ou une intervention.
+                    </p>
+                    <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mt-4">
+                        <img src="assets/images/le-cabinet/PHOTO 8.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 1">
+                        <img src="assets/images/le-cabinet/PHOTO 9.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 2">
+                        <img src="assets/images/le-cabinet/PHOTO 10.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 3">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Infos & Rendez-vous -->
+            <section id="info-rendez-vous" class="mt-32">
+                <div>
+                    <div>
+                        <h2>Infos pratiques & Prendre rendez-vous</h2>
                     </div>
                 </div>
             </section>
