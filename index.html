@@ -249,18 +249,44 @@
                     </p>
                     <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mt-4">
                         <img src="assets/images/le-cabinet/PHOTO 8.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 1">
-                        <img src="assets/images/le-cabinet/PHOTO 9.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 2">
+                        <img src="assets/images/le-cabinet/PHOTO 9.png" class="max-h-[400px] w-full sm:w-[32%] object-contain rounded shadow-md" alt="Technologie 2">
                         <img src="assets/images/le-cabinet/PHOTO 10.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 3">
                     </div>
                 </div>
             </section>
 
             <!-- Infos & Rendez-vous -->
-            <section id="info-rendez-vous" class="mt-32">
-                <div>
-                    <div>
-                        <h2>Infos pratiques & Prendre rendez-vous</h2>
+            <section id="rendez-vous" class="bg-white py-16 px-4 scroll-mt-32 w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Prendre Rendez-vous & Infos Pratiques</h2>
+                </div>
+                <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-gray-700 text-base md:text-lg animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
+                    <div class="text-center md:text-left space-y-2">
+                        <h3 class="text-xl font-semibold text-[#0c2c56]">Accessibilité</h3>
+                        <p>15 rue de Segonzac, 16100 COGNAC</p>
+                        <a href="https://maps.app.goo.gl/t2x8mTbUyuohUuzAA" class="text-blue-600 hover:underline block">Voir sur Google Maps</a>
+                        <p>Accessibilité PMR</p>
+                        <p>Parking réservé à la patientèle</p>
                     </div>
+                    <div class="text-center md:text-left space-y-2">
+                        <h3 class="text-xl font-semibold text-[#0c2c56]">Les Horaires</h3>
+                        <p>Du lundi au vendredi<br />7h30 - 20h00</p>
+                        <p>Le samedi<br />7h30 - 13h</p>
+                    </div>
+                    <div class="text-center md:text-left space-y-2">
+                        <h3 class="text-xl font-semibold text-[#0c2c56]">Contact</h3>
+                        <p>Téléphone : 06.67.37.25.54</p>
+                        <p>Email : <a href="mailto:cognac.osteopathie@icloud.com" class="text-blue-600 hover:underline">cognac.osteopathie@icloud.com</a></p>
+                    </div>
+                </div>
+                <div class="mt-16 flex flex-col items-center animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
+                    <img src="assets/logo/dct-icon.png" alt="Logo Doctolib" class="h-12 sm:h-14 md:h-16 w-auto mb-6 rounded-md" />
+                    <button
+                        class="bg-[#0c2c56] hover:bg-[#143f80] text-white font-bold uppercase py-3 px-8 rounded transition"
+                        onclick="window.location='https://www.doctolib.fr/osteopathe/cognac/victor-thomas-nozay?pid=practice-697375&phs=true&page=1&index=3'"
+                    >
+                        Prendre rendez-vous
+                    </button>
                 </div>
             </section>
         </main>
@@ -279,7 +305,6 @@
                 isOpen = !isOpen;
             });
 
-            // Ferme le menu si on clique sur un lien
             mobileMenu.querySelectorAll('a').forEach(link => {
                 link.addEventListener('click', () => {
                 mobileMenu.style.maxHeight = "0";
@@ -287,7 +312,6 @@
                 });
             });
 
-            // Ferme le menu si on scrolle
             window.addEventListener('scroll', () => {
                 mobileMenu.style.maxHeight = "0";
                 isOpen = false;
