@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport"       content="width=device-width, initial-scale=1.0" />
+        <meta name="description"    content="Cabinet d'ostéopathie à Cognac. Enora Guyon & Victor Thomas vous accueillent pour des soins personnalisés adaptés à vos besoins." />
+        <meta name="keywords"       content="osteopathie, osteopathe, cognac, cabinet" />
+        <meta name="author"         content="Réalisé par BrokenShield - brokenshield.company@gmail.com" />
+
+        <title>Ostéopathe à Cognac | Enora Guyon & Victor Thomas</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="icon"        href="assets/ico/logo.ico" />
+        <link rel="stylesheet"  href="index.style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    </head>
+
+    <body class="bg-white font-[Quicksand] text-[black]">
+        <!-- Header -->
+        <header class="sticky top-0 z-50 shadow-md bg-white">
+            <!-- Header - Ordinateur -->
+            <div class="px-4 py-3 flex justify-between items-center">
+                <a href="#accueil"><img src="assets/logo/cab-logo.png" alt="Logo du cabinet d'ostéopathie" class="h-16 object-contain" /></a>
+                <button id="burger-toggle" class="md:hidden text-3xl text-[#0c2c56] focus:outline-none"> ☰ </button>
+                <nav class="hidden md:flex gap-6 uppercase font-bold text-sm text-[#0c2c56]">
+                    <a href="#a-propos" class="hover:text-blue-700">À Propos</a>
+                    <a href="#les-consultations" class="hover:text-blue-700">Les Consultations</a>
+                    <a href="#tarifs-remboursements" class="hover:text-blue-700">Tarifs & Remboursements</a>
+                    <a href="#le-cabinet" class="hover:text-blue-700">Le Cabinet</a>
+                    <a href="#rendez-vous" class="hover:text-blue-700">Infos Pratiques & Prendre Rendez-Vous</a>
+                </nav>
+                <div class="hidden md:flex gap-4">
+                    <a href="http://facebook.com/CabinetdOsteopathieCognac">
+                        <img src="assets/logo/fb-icon.png" alt="Logo de l'application Facebook" class="w-6 h-6" />
+                    </a>
+                    <a href="https://www.instagram.com/cabinet_osteopathie_cognac">
+                        <img src="assets/logo/ig-icon.png" alt="Logo de l'application Instagram" class="w-6 h-6" />
+                    </a>
+                    <a href="https://www.doctolib.fr/osteopathe/cognac/victor-thomas-nozay">
+                        <img src="assets/logo/dct-icon.png" alt="Logo de l'application Doctolib" class="w-full h-6 rounded-md" />
+                    </a>
+                </div>
+            </div>
+            <!-- Header - Mobile -->
+            <div id="mobile-menu" class="transition-all overflow-hidden max-h-0 duration-500 ease-in-out md:hidden flex-col text-center uppercase font-bold text-sm text-[#0c2c56] space-y-2 mt-4">
+                <a href="#a-propos" class="block py-2 border-b border-gray-200">À Propos</a>
+                <a href="#les-consultations" class="block py-2 border-b border-gray-200">Les Consultations</a>
+                <a href="#tarifs-remboursements" class="block py-2 border-b border-gray-200">Tarifs & Remboursements</a>
+                <a href="#le-cabinet" class="block py-2 border-b border-gray-200">Le Cabinet</a>
+                <a href="#rendez-vous" class="block py-2">Infos Pratiques & Prendre Rendez-Vous</a>
+                <div class="flex justify-center gap-4 py-2">
+                    <a href="http://facebook.com/CabinetdOsteopathieCognac">
+                        <img src="assets/logo/fb-icon.png" alt="Logo de l'application Facebook" class="w-6 h-6" />
+                    </a>
+                    <a href="https://www.instagram.com/cabinet_osteopathie_cognac">
+                        <img src="assets/logo/ig-icon.png" alt="Logo de l'application Instagram" class="w-6 h-6" />
+                    </a>
+                    <a href="https://www.doctolib.fr/osteopathe/cognac/victor-thomas-nozay">
+                        <img src="assets/logo/dct-icon.png" alt="Logo de l'application Doctolib" class="w-full h-6 rounded-md" />
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Accueil -->
+            <section id="accueil" class="bg-white py-12 px-4 max-w-7xl mx-auto">
+                <div class="flex justify-center mb-12">
+                    <div class="border-2 border-[#0c2c56] px-6 py-4 rounded-md shadow-md">
+                        <h1 class="text-3xl md:text-4xl font-[inter] text-[#0c2c56] font-bold">
+                            Ostéopathes à Cognac
+                        </h1>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 items-center mb-16 w-full animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
+                    <div>
+                        <img src="assets/images/accueil/PHOTO 1.png" alt="Photo des ostéopathes" class="w-full h-auto rounded-md shadow-md" />
+                    </div>
+                    <div class="text-base md:text-lg leading-relaxed">
+                        <p>
+                            Diplômés de l'<strong>Institut des Hautes Études Ostéopathiques (IdHEO)</strong> de Nantes, nous avons d'abord exercé dans la région nantaise.<br /><br />
+                            Séduits par la <strong>qualité de vie</strong> et le <strong>dynamisme de Cognac</strong>, nous avons ensuite choisi de nous y installer.<br /><br />
+                            Originaires du <strong>Morbihan</strong> (Enora) et de <strong>Saintes</strong> (Victor), notre rencontre pendant nos études a fait naître un projet commun : <strong>créer un cabinet moderne, humain et accessible</strong>.<br /><br />
+                            Nous vous accueillons dans un espace <strong>dédié à l'écoute et au soin</strong>, avec des horaires étendus pour s'adapter à votre rythme (<strong>matin, pause déjeuner, soirée</strong>).
+                        </p>
+                    </div>
+                </div>
+<div class="grid md:grid-cols-2 gap-8 items-center w-full max-w-7xl px-4 mx-auto animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out">
+  <div class="order-2 md:order-1 text-base md:text-lg leading-relaxed">
+    <p>
+      Nos <strong>approches sont complémentaires</strong> :<br /><br />
+      <strong>Enora</strong> est spécialisée en <strong>ostéopathie périnatale, pédiatrique et post-partum</strong>, et se forme également en <strong>diététique</strong>.<br /><br />
+      <strong>Victor</strong>, passionné de sport, accompagne les sportifs grâce à son expérience dans de <strong>multiple pratiques sportives</strong> (course à pied, cyclisme, triathlon)<br /><br />
+      Le cabinet est équipé d'<strong>outils de mesure de haute précision</strong> pour un suivi <strong>objectif</strong>, adapté à vos besoins : <strong>santé, performance, récupération ou encore rééducation</strong>.
+    </p>
+  </div>
+  <div class="order-1 md:order-2">
+    <img src="assets/images/accueil/PHOTO 2.png" alt="Photo spécialités" class="w-full h-auto rounded-md shadow-md" />
+  </div>
+</div>
+                </div>
+            </section>
+
+            <!-- À propos -->
+            <section id="a-propos" class="bg-white py-12 px-4 space-y-20 max-w-7xl mx-auto">
+                <div>
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Qu'est-ce que l'ostéopathie ?</h2>
+                    </div>
+                    <div class="w-full animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4 text-center">
+                        <p><strong>L'ostéopathie</strong> est une méthode de soin <strong>manuelle</strong> qui vise à <strong>améliorer la mobilité</strong> du corps et à <strong>soulager les douleurs</strong>, notamment d'origine musculo-squelettique (articulations, muscles, tendons).</p>
+                        <p>Elle repose sur une <strong>approche globale du corps</strong> : l'ostéopathe cherche à comprendre l'origine des troubles en considérant les <strong>liens entre les différents systèmes</strong> (musculaire, articulaire, digestif, crânien, etc.).</p>
+                        <p>Un ensemble de <strong>techniques adaptées à chaque patient</strong> est utilisé, en fonction de la douleur, des antécédents et des attentes.</p>
+                        <p>Ces techniques peuvent inclure des <strong>mobilisations articulaires et musculaires</strong>, des <strong>manipulations abdominales, crâniennes</strong> ou encore <strong>tissulaires</strong>.</p>
+                        <p><strong>L'ostéopathie ne remplace pas la médecine conventionnelle</strong> mais la <strong>complète efficacement</strong>.</p>
+                        <p>L'objectif est d'<strong>aider le corps à retrouver son équilibre</strong>, de <strong>prévenir les douleurs</strong> et de <strong>mieux gérer les éventuelles récidives</strong>.</p>
+                    </div>
+                </div>
+                <div>
+                   <div class="min-h-screen flex flex-col justify-center items-center px-4 text-center">
+  <div class="text-center mb-12 max-w-3xl">
+    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">L'ostéopathie à votre service</h2>
+  </div>
+  <div class="text-center md:grid-cols-2 gap-12 items-start animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out max-w-5xl text-left text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+    <p>
+      L'ostéopathie s'adresse à <strong>tous</strong> : <strong>nourrissons, enfants, adolescents, adultes, seniors</strong> et <strong>sportifs</strong>.<br />
+      Chacun peut bénéficier d'un <strong>accompagnement personnalisé</strong>, en fonction de ses <strong>besoins</strong>, de son <strong>mode de vie</strong> et de son <strong>état de santé</strong>.<br/><br/>
+    </p>
+    <p>Cette approche permet notamment de :</p>
+    <ul class="list-disc list-inside space-y-2">
+      <li><strong>Comprendre et prévenir les douleurs</strong></li>
+      <li><strong>Améliorer la mobilité</strong> et la <strong>posture</strong></li>
+      <li><strong>Préparer</strong> et <strong>accompagner</strong> le corps dans une pratique sportive</li>
+      <li><strong>Favoriser la récupération</strong> après un traumatisme ou une intervention</li>
+      <li><strong>Réduire le stress</strong> et l'anxiété</li>
+      <li><strong>Prévenir les déséquilibres</strong> liés au travail sédentaire</li>
+      <li><strong>Apaiser les douleurs</strong> liées à la grossesse ou au post-partum</li>
+      <li><strong>Accompagner le développement</strong> psycho-moteur des enfants</li>
+      <li>
+        Compléter certains <strong>traitements médicaux</strong>, notamment en cas de :
+        <ul class="list-disc list-inside pl-6 mt-2 space-y-1">
+          <li><strong>Troubles musculo-squelettiques</strong> : mal de dos, tensions musculaires, douleurs articulaires…</li>
+          <li><strong>Troubles crâniens</strong> : migraines, céphalées, vertiges, troubles ORL, acouphènes, ATM…</li>
+          <li><strong>Troubles digestifs</strong> : ballonnements, reflux, RGO, douleurs abdominales...</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+                </div>
+            </section>
+            <section id="les-consultations" class="scroll-mt-24 max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Les consultations</h2>
+                </div>
+                <div class="flex flex-col md:flex-row items-center justify-between gap-8 animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out">
+                    <div class="w-full md:w-1/2">
+                        <img src="assets/images/les-consultations/PHOTO 4.png" alt="Photo illustrant une consultation ostéopathique" class="w-full h-auto max-h-[400px] object-cover rounded-md shadow-md" />
+                    </div>
+                    <div class="w-full md:w-1/2 text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                        <p>
+                            Une consultation ostéopathique commence par <strong>un échange approfondi</strong> visant à comprendre votre motif de consultation et à retracer votre parcours médical.
+                            Cet entretien permet <strong>d'adapter le traitement à vos besoins spécifiques</strong>.
+                        </p>
+                        <p>
+                            Vient ensuite <strong>une phase de tests cliniques</strong> destinés à évaluer si votre situation relève du champ de l'ostéopathie ou nécessite une orientation vers un autre professionnel de santé.
+                            Ces tests permettent également de <strong>construire un plan de traitement sur mesure</strong>.
+                        </p>
+                        <p>
+                            Après avoir discuté ensemble de <strong>la prise en charge envisagée</strong>, le traitement débute avec votre accord.
+                            L'ostéopathe utilise <strong>différentes techniques manuelles</strong> — musculaires, articulaires, viscérales, fasciales ou crâniennes — selon votre situation.
+                            L'approche reste toujours <strong>globale</strong>, en tenant compte de l'ensemble du corps.
+                        </p>
+                        <p>
+                            Enfin, <strong>des conseils personnalisés</strong> vous sont donnés pour prolonger les bienfaits de la séance et <strong>mieux gérer les douleurs au quotidien</strong>.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tarifs & Remboursements -->
+            <section id="tarifs-remboursements" class="mt-32 px-4 max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Tarifs & Remboursements</h2>
+                </div>
+                <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-12">
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <div class="w-full max-w-xl divide-y divide-gray-300">
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation d'ostéopathie adulte</span>
+                                <span class="font-bold text-gray-900">60 €</span>
+                            </div>
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation femme enceinte</span>
+                                <span class="font-bold text-gray-900">60 €</span>
+                            </div>
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation sportif</span>
+                                <span class="font-bold text-gray-900">60 €</span>
+                            </div>
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation enfant (-12 ans)</span>
+                                <span class="font-bold text-gray-900">50 €</span>
+                            </div>
+                            <div class="flex justify-between py-4 text-sm sm:text-base lg:text-lg">
+                                <span class="text-gray-800">Consultation nourrisson (0 à 2 ans)</span>
+                                <span class="font-bold text-gray-900">50 €</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4 ">
+                        <p>
+                            La <strong>Sécurité sociale ne rembourse pas</strong> les consultations en ostéopathie.
+                        </p>
+                        <p>
+                            Cependant, de plus en plus de <strong>mutuelles offrent un remboursement partiel ou total des séances</strong>.
+                            Les modalités varient largement selon les compagnies d'assurance et les contrats choisis.
+                        </p>
+                        <p>
+                            Pour bénéficier d'un éventuel remboursement, il est important de <strong>demander une facture à votre praticien</strong> à l'issue de la consultation.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Le Cabinet -->
+            <section id="le-cabinet" class="mt-32 text-center px-4 max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Le cabinet</h2>
+                </div>
+                <div class="w-full mb-16 animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                    <p>
+                        Ce cabinet se tient régulièrement informé des <strong>dernières avancées scientifiques</strong> afin de proposer une approche toujours plus cohérente et adaptée.<br/>
+                        Nous bénéficions de <strong>formations spécialisées</strong> pour accompagner tous les profils de patients, du nourrisson aux seniors, en passant par les sportifs et les femmes enceintes.<br/>
+                        Lors de la première consultation, un <strong>entretien approfondi</strong> et un <strong>examen clinique</strong> permettent à l'ostéopathe de vérifier que la prise en charge relève bien de sa compétence.<br/>
+                        En cas de doute, une <strong>orientation vers votre médecin traitant</strong> sera proposée pour un avis médical et, si nécessaire, des examens complémentaires.
+                    </p>
+                    <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mt-4">
+                        <img src="assets/images/le-cabinet/PHOTO 5.png" class="w-full sm:w-[32%] max-h-[400px] object-cover rounded shadow-md" alt="Cabinet 1">
+                        <img src="assets/images/le-cabinet/PHOTO 6.png" class="w-full sm:w-[32%] max-h-[400px] object-cover rounded shadow-md" alt="Cabinet 2">
+                        <img src="assets/images/le-cabinet/PHOTO 7.png" class="w-full sm:w-[32%] max-h-[400px] object-cover rounded shadow-md" alt="Cabinet 3">
+                    </div>
+                </div>
+                <div class="w-full animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                    <p>
+                        Dans un souci d'<strong>innovation et de modernisation</strong>, notre cabinet utilise des <strong>appareils de mesure haute précision</strong>, notamment les technologies <strong>InBody et Kinvent</strong>.<br/>
+                        Ces outils permettent d'<strong>objectiver la pratique de l'ostéopathie</strong> en offrant un suivi personnalisé, précis et mesurable, que ce soit pour <strong>soulager une douleur</strong>, 
+                        <strong>améliorer la santé globale</strong>, <strong>optimiser la performance sportive</strong> ou <strong>accompagner la rééducation</strong> après une blessure ou une intervention.
+                    </p>
+                    <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mt-4">
+                        <img src="assets/images/le-cabinet/PHOTO 8.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 1">
+                        <img src="assets/images/le-cabinet/PHOTO 9.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 2">
+                        <img src="assets/images/le-cabinet/PHOTO 10.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 3">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Infos & Rendez-vous -->
+            <section id="rendez-vous" class="bg-white py-16 px-4 scroll-mt-32 w-full max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Prendre Rendez-vous & Infos Pratiques</h2>
+                </div>
+                <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-gray-700 text-base md:text-lg animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
+                    <div class="text-center md:text-left space-y-2">
+                        <h3 class="text-xl font-semibold text-[#0c2c56]">Accessibilité</h3>
+                        <p>15 rue de Segonzac, 16100 COGNAC</p>
+                        <a href="https://maps.app.goo.gl/t2x8mTbUyuohUuzAA" class="text-blue-600 hover:underline block">Voir sur Google Maps</a>
+                        <p>Accessibilité PMR</p>
+                        <p>Parking réservé à la patientèle</p>
+                    </div>
+                    <div class="text-center md:text-left space-y-2">
+                        <h3 class="text-xl font-semibold text-[#0c2c56]">Les Horaires</h3>
+                        <p>Du lundi au vendredi<br />7h30 - 20h00</p>
+                        <p>Le samedi<br />7h30 - 13h</p>
+                    </div>
+                    <div class="text-center md:text-left space-y-2">
+                        <h3 class="text-xl font-semibold text-[#0c2c56]">Contact</h3>
+                        <p>Téléphone : 06.67.37.25.54</p>
+                        <p>Email : <a href="mailto:cognac.osteopathie@icloud.com" class="text-blue-600 hover:underline">cognac.osteopathie@icloud.com</a></p>
+                    </div>
+                </div>
+                <div class="mt-16 flex flex-col items-center animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
+                    <img src="assets/logo/dct-icon.png" alt="Logo Doctolib" class="h-12 sm:h-14 md:h-16 w-auto mb-6 rounded-md" />
+                    <button
+                        class="bg-[#0c2c56] hover:bg-[#143f80] text-white font-bold uppercase py-3 px-8 rounded transition"
+                        onclick="window.location='https://www.doctolib.fr/osteopathe/cognac/victor-thomas-nozay?pid=practice-697375&phs=true&page=1&index=3'"
+                    >
+                        Prendre rendez-vous
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <script>
+            const burgerToggle = document.getElementById('burger-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            let isOpen = false;
+
+            burgerToggle.addEventListener('click', () => {
+                if (!isOpen) {
+                mobileMenu.style.maxHeight = mobileMenu.scrollHeight + "px";
+                } else {
+                mobileMenu.style.maxHeight = "0";
+                }
+                isOpen = !isOpen;
+            });
+
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                mobileMenu.style.maxHeight = "0";
+                isOpen = false;
+                });
+            });
+
+            window.addEventListener('scroll', () => {
+                mobileMenu.style.maxHeight = "0";
+                isOpen = false;
+            });
+            const elements = document.querySelectorAll('.animate-on-scroll');
+
+            const appearOnScroll = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('appear');
+                }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            elements.forEach(el => appearOnScroll.observe(el));
+        </script>
+    </body>
+</html>

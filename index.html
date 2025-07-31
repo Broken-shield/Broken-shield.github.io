@@ -13,6 +13,7 @@
         <link rel="icon"        href="assets/ico/logo.ico" />
         <link rel="stylesheet"  href="index.style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
     </head>
 
     <body class="bg-white font-[Quicksand] text-[black]">
@@ -27,7 +28,7 @@
                     <a href="#les-consultations" class="hover:text-blue-700">Les Consultations</a>
                     <a href="#tarifs-remboursements" class="hover:text-blue-700">Tarifs & Remboursements</a>
                     <a href="#le-cabinet" class="hover:text-blue-700">Le Cabinet</a>
-                    <a href="#info-rendez-vous" class="hover:text-blue-700">Infos Pratiques & Prendre Rendez-Vous</a>
+                    <a href="#rendez-vous" class="hover:text-blue-700">Infos Pratiques & Prendre Rendez-Vous</a>
                 </nav>
                 <div class="hidden md:flex gap-4">
                     <a href="http://facebook.com/CabinetdOsteopathieCognac">
@@ -47,7 +48,7 @@
                 <a href="#les-consultations" class="block py-2 border-b border-gray-200">Les Consultations</a>
                 <a href="#tarifs-remboursements" class="block py-2 border-b border-gray-200">Tarifs & Remboursements</a>
                 <a href="#le-cabinet" class="block py-2 border-b border-gray-200">Le Cabinet</a>
-                <a href="#info-rendez-vous" class="block py-2">Infos Pratiques & Prendre Rendez-Vous</a>
+                <a href="#rendez-vous" class="block py-2">Infos Pratiques & Prendre Rendez-Vous</a>
                 <div class="flex justify-center gap-4 py-2">
                     <a href="http://facebook.com/CabinetdOsteopathieCognac">
                         <img src="assets/logo/fb-icon.png" alt="Logo de l'application Facebook" class="w-6 h-6" />
@@ -65,114 +66,119 @@
         <main>
             <!-- Accueil -->
             <section id="accueil" class="bg-white py-12 px-4">
-                <div class="text-center mb-12">
-                    <h1 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Vos ostéopathes à Cognac</h1>
+                <div class="flex justify-center mb-12">
+                    <div class="border-2 border-[#0c2c56] px-6 py-4 rounded-md shadow-md">
+                        <h1 class="text-3xl md:text-4xl font-[inter] text-[#0c2c56] font-bold">
+                            Ostéopathes à Cognac
+                        </h1>
+                    </div>
                 </div>
                 <div class="grid md:grid-cols-2 gap-8 items-center mb-16 w-full animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
                     <div>
-                        <img src="assets/images/accueil/PHOTO 1.png" alt="Photo des ostéopathes" class="w-full h-auto rounded-md shadow-md" />
+                        <img src="assets/images/accueil/PHOTO 1.png" alt="Photo des ostéopathes" class="w-full max-h-[600px] object-cover rounded-md shadow-md" />
                     </div>
                     <div class="text-base md:text-lg leading-relaxed">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Qui sommes-nous ?</h2>
+                        </div>
                         <p>
-                            Diplômés de l'Institut des Hautes Études Ostéopathiques (IdHEO) de Nantes, nous avons d'abord exercé dans la région nantaise.<br /><br />
-                            Séduits par la qualité de vie et le dynamisme de Cognac, nous avons ensuite choisi de nous y installer.<br /><br />
-                            Originaires du Morbihan (Enora) et de Saintes (Victor), notre rencontre pendant nos études a fait naître un projet commun : créer un cabinet moderne, humain et accessible.<br /><br />
-                            Nous vous accueillons dans un espace dédié à l'écoute et au soin, avec des horaires étendus pour s'adapter à votre rythme (matin, pause déjeuner, soirée).
+                            Tous deux diplômés de l'<strong>Institut des Hautes Études Ostéopathiques (IdHEO)</strong> de Nantes, nous avons d'abord exercé dans la région nantaise.<br /><br />
+                            Séduits par la <strong>qualité de vie</strong> et le <strong>dynamisme de Cognac</strong>, nous avons ensuite choisi de nous y installer.<br /><br />
+                            Originaires du <strong>Morbihan</strong> (Enora) et de <strong>Saintes</strong> (Victor), notre rencontre pendant nos études a fait naître un projet commun : <strong>créer un cabinet moderne, humain et accessible</strong>.<br /><br />
+                            Nous vous accueillons dans un espace <strong>dédié à l'écoute et au soin</strong>, avec des horaires étendus pour s'adapter à votre rythme (<strong>matin, pause déjeuner, soirée</strong>).
                         </p>
                     </div>
                 </div>
-                <div class="grid md:grid-cols-2 gap-8 items-center w-full animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out">
-                    <div class="order-2 md:order-1 text-base md:text-lg leading-relaxed">
-                        <p>
-                            Nos approches sont complémentaires :<br /><br />
-                            Enora est spécialisée en ostéopathie périnatale, pédiatrique et post-partum, et se forme également en diététique.<br /><br />
-                            Victor, passionné de sport, accompagne les sportifs grâce à son expérience en cyclisme et triathlon.<br /><br />
-                            Le cabinet est équipé d'outils de mesure de haute précision pour un suivi objectif, adapté à vos besoins : santé, performance, récupération ou encore rééducation.
-                        </p>
-                    </div>
-                    <div class="order-1 md:order-2">
-                        <img src="assets/images/accueil/PHOTO 2.png" alt="Photo spécialités" class="w-full h-auto rounded-md shadow-md" />
-                    </div>
+<div class="grid md:grid-cols-2 gap-8 items-center mb-10 w-full animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out pl-6">
+  <div class="order-2 md:order-1 text-base md:text-lg leading-relaxed">
+    <p>
+      Nos <strong>approches sont complémentaires</strong> :<br /><br />
+      <strong>Enora</strong> est spécialisée en <strong>ostéopathie périnatale, pédiatrique et post-partum</strong>, et se forme également en <strong>diététique</strong>.<br /><br />
+      <strong>Victor</strong>, passionné de sport, accompagne les sportifs grâce à son expérience dans de <strong>multiple pratiques sportives</strong> (course à pied, cyclisme, triathlon)<br /><br />
+      Le cabinet est équipé d'<strong>outils de mesure de haute précision</strong> pour un suivi <strong>objectif</strong>, adapté à vos besoins : <strong>santé, performance, récupération ou encore rééducation</strong>.
+    </p>
+  </div>
+  <div class="order-1 md:order-2">
+    <img src="assets/images/accueil/PHOTO 8.png" alt="Photo spécialités" class="max-h-[600px] w-full object-cover rounded shadow-md" />
+  </div>
+</div>
                 </div>
             </section>
 
             <!-- À propos -->
-            <section id="a-propos" class="bg-white py-12 px-4 space-y-20">
+            <section id="a-propos" class="bg-white py-12 px-4 space-y-20 mt-16">
                 <div>
                     <div class="text-center mb-12">
-                        <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Qu'est-ce que l'ostéopathie ?</h2>
+                        <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Qu'est-ce que l'ostéopathie ?</h2>
                     </div>
                     <div class="w-full animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4 text-center">
-                        <p>L'ostéopathie est une méthode de soin manuelle qui vise à améliorer la mobilité du corps et à soulager les douleurs, notamment d'origine musculo-squelettique (articulations, muscles, tendons).</p>
-                        <p>Elle repose sur une approche globale du corps : l'ostéopathe cherche à comprendre l'origine des troubles en considérant les liens entre les différents systèmes (musculaire, articulaire, digestif, crânien, etc.).</p>
-                        <p>Un ensemble de techniques adaptées à chaque patient est utilisé, en fonction de la douleur, des antécédents et des attentes.</p>
-                        <p>Ces techniques peuvent inclure des mobilisations articulaires et musculaires, des manipulations abdominales, crâniennes ou encore tissulaires.</p>
-                        <p>L'ostéopathie ne remplace pas la médecine conventionnelle mais la complète efficacement.</p>
-                        <p>L'objectif est d'aider le corps à retrouver son équilibre, de prévenir les douleurs et de mieux gérer les éventuelles récidives.</p>
+                        <p><strong>L'ostéopathie</strong> est une méthode de soin <strong>manuelle</strong> qui vise à <strong>améliorer la mobilité</strong> du corps et à <strong>soulager les douleurs</strong>, notamment d'origine musculo-squelettique (articulations, muscles, tendons).</p>
+                        <p>Elle repose sur une <strong>approche globale du corps</strong> : l'ostéopathe cherche à comprendre l'origine des troubles en considérant les <strong>liens entre les différents systèmes</strong> (musculaire, articulaire, digestif, crânien, etc.).</p>
+                        <p>Un ensemble de <strong>techniques adaptées à chaque patient</strong> est utilisé, en fonction de la douleur, des antécédents et des attentes.</p>
+                        <p>Ces techniques peuvent inclure des <strong>mobilisations articulaires et musculaires</strong>, des <strong>manipulations abdominales, crâniennes</strong> ou encore <strong>tissulaires</strong>.</p>
+                        <p><strong>L'ostéopathie ne remplace pas la médecine conventionnelle</strong> mais la <strong>complète efficacement</strong>.</p>
+                        <p>L'objectif est d'<strong>aider le corps à retrouver son équilibre</strong>, de <strong>prévenir les douleurs</strong> et de <strong>mieux gérer les éventuelles récidives</strong>.</p>
                     </div>
                 </div>
                 <div>
-                    <div class="text-center mb-12">
-                        <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">L'ostéopathie à votre service</h2>
-                    </div>
-                    <div class="grid md:grid-cols-2 gap-12 items-start animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out">
-                        <div class="text-gray-700 text-base md:text-lg leading-relaxed space-y-4 text-left">
-                            <p>
-                                L'ostéopathie s'adresse à tous : nourrissons, enfants, adolescents, adultes, seniors et sportifs.<br/>
-                                Chacun peut bénéficier d'un accompagnement personnalisé, en fonction de ses besoins, de son mode de vie et de son état de santé.
-                            </p>
-                            <p>Cette approche permet notamment de :</p>
-                            <ul class="list-disc list-inside space-y-2">
-                                <li>Comprendre et prévenir les douleurs</li>
-                                <li>Améliorer la mobilité et la posture</li>
-                                <li>Préparer et accompagner le corps dans une pratique sportive</li>
-                                <li>Favoriser la récupération après un traumatisme ou une intervention</li>
-                                <li>Réduire le stress et l'anxiété</li>
-                                <li>Prévenir les déséquilibres liés au travail sédentaire</li>
-                                <li>Apaiser les douleurs liées à la grossesse ou au post-partum</li>
-                                <li>Accompagner le développement psycho-moteur des enfants</li>
-                                <li>
-                                    Compléter certains traitements médicaux, notamment en cas de :
-                                    <ul class="list-disc list-inside pl-6 mt-2 space-y-1">
-                                    <li>Troubles musculo-squelettiques : mal de dos, tensions musculaires, douleurs articulaires…</li>
-                                    <li>Troubles crâniens : migraines, céphalées, vertiges, troubles ORL, acouphènes, ATM…</li>
-                                    <li>Troubles digestifs : ballonnements, reflux, RGO, douleurs abdominales...</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <img src="assets/images/a-propos/PHOTO 3.png" alt="Photo illustrant un mal de dos" class="w-full max-h-[600px] object-contain rounded-md shadow-md" />
-                        </div>
-                    </div>
+                   <div class="min-h-screen flex flex-col justify-center items-center px-4 text-center">
+  <div class="text-center mb-12 max-w-3xl">
+    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">L'ostéopathie à votre service</h2>
+  </div>
+  <div class="text-center md:grid-cols-2 gap-12 items-start animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out max-w-5xl text-left text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+    <p>
+      L'ostéopathie s'adresse à <strong>tous</strong> : <strong>nourrissons, enfants, adolescents, adultes, seniors</strong> et <strong>sportifs</strong>.<br />
+      Chacun peut bénéficier d'un <strong>accompagnement personnalisé</strong>, en fonction de ses <strong>besoins</strong>, de son <strong>mode de vie</strong> et de son <strong>état de santé</strong>.<br/><br/>
+    </p>
+    <p>Cette approche permet notamment de :</p>
+    <ul class="list-disc list-inside space-y-2">
+      <li><strong>Comprendre et prévenir les douleurs</strong></li>
+      <li><strong>Améliorer la mobilité</strong> et la <strong>posture</strong></li>
+      <li><strong>Préparer</strong> et <strong>accompagner</strong> le corps dans une pratique sportive</li>
+      <li><strong>Favoriser la récupération</strong> après un traumatisme ou une intervention</li>
+      <li><strong>Réduire le stress</strong> et l'anxiété</li>
+      <li><strong>Prévenir les déséquilibres</strong> liés au travail sédentaire</li>
+      <li><strong>Apaiser les douleurs</strong> liées à la grossesse ou au post-partum</li>
+      <li><strong>Accompagner le développement</strong> psycho-moteur des enfants</li>
+      <li>
+        Compléter certains <strong>traitements médicaux</strong>, notamment en cas de :
+        <ul class="list-disc list-inside pl-6 mt-2 space-y-1">
+          <li><strong>Troubles musculo-squelettiques</strong> : mal de dos, tensions musculaires, douleurs articulaires…</li>
+          <li><strong>Troubles crâniens</strong> : migraines, céphalées, vertiges, troubles ORL, acouphènes, ATM…</li>
+          <li><strong>Troubles digestifs</strong> : ballonnements, reflux, RGO, douleurs abdominales...</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
                 </div>
             </section>
 
-            <!-- Les consultations -->
-            <section id="les-consultations">
+            <section id="les-consultations" class="scroll-mt-24">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Les consultations</h2>
+                    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Les consultations</h2>
                 </div>
                 <div class="flex flex-col md:flex-row items-center justify-between gap-8 animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out">
-                    <div class="w-full md:w-1/2">
+                    <div class="w-full md:w-1/2 ml-4">
                         <img src="assets/images/les-consultations/PHOTO 4.png" alt="Photo illustrant une consultation ostéopathique" class="w-full h-auto max-h-[400px] object-cover rounded-md shadow-md" />
                     </div>
-                    <div class="w-full md:w-1/2 text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                    <div class="w-full md:w-1/2 text-gray-700 text-base md:text-lg leading-relaxed space-y-4 mr-4">
                         <p>
-                            Une consultation ostéopathique commence par un échange approfondi visant à comprendre votre motif de consultation et à retracer votre parcours médical.
-                            Cet entretien permet d'adapter le traitement à vos besoins spécifiques.
+                            Une consultation <strong>débute par un échange</strong> qui vise à bien <strong>cibler votre problématique</strong> mais également 
+                            à <strong>retracer votre historique médical</strong>, afin <strong>d'adapter le traitement</strong> à vos spécificités.
                         </p>
                         <p>
-                            Vient ensuite une phase de tests cliniques destinés à évaluer si votre situation relève du champ de l'ostéopathie ou nécessite une orientation vers un autre professionnel de santé.
-                            Ces tests permettent également de construire un plan de traitement sur mesure.
+                            Elle se poursuit par une <strong>série de tests</strong> permettant de déterminer si votre situation relève bien du champ de l'ostéopathie ou 
+                            d'un autre domaine médical. Ces tests serviront également à <strong>élaborer un plan de traitement spécifique</strong> pour répondre au mieux à vos besoins.
                         </p>
                         <p>
-                            Après avoir discuté ensemble de la prise en charge envisagée, le traitement débute avec votre accord.
-                            L'ostéopathe utilise différentes techniques manuelles — musculaires, articulaires, viscérales, fasciales ou crâniennes — selon votre situation.
-                            L'approche reste toujours globale, en tenant compte de l'ensemble du corps.
+                            Après avoir <strong>discuté ensemble</strong> de votre situation et de la méthode de traitement, avec votre accord, l'ostéopathe commencera la prise en charge. 
+                            Il peut utiliser diverses techniques telles que le <strong>myo-fascial</strong>, <strong>l'articulaire</strong>, <strong>le viscéral</strong> et <strong>le crânien</strong>. 
+                            Il veillera à prendre en charge <strong>toutes vos douleurs</strong> de manière <strong>globale</strong>.
                         </p>
                         <p>
-                            Enfin, des conseils personnalisés vous sont donnés pour prolonger les bienfaits de la séance et mieux gérer les douleurs au quotidien.
+                            En fin de consultation, l'ostéopathe vous <strong>prodiguera des conseils</strong> sur les <strong>bonnes
+                            pratiques</strong> à adopter au quotidien pour <strong>mieux gérer les problèmes</strong> que vous rencontrez.
                         </p>
                     </div>
                 </div>
@@ -181,7 +187,7 @@
             <!-- Tarifs & Remboursements -->
             <section id="tarifs-remboursements" class="mt-32">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Tarifs & Remboursements</h2>
+                    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Tarifs & Remboursements</h2>
                 </div>
                 <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-12">
                     <div class="w-full md:w-1/2 flex justify-center">
@@ -210,30 +216,29 @@
                     </div>
                     <div class="w-full md:w-1/2 animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
                         <p>
-                            La Sécurité sociale ne rembourse pas les consultations en ostéopathie.
+                            La <strong>Sécurité sociale ne rembourse pas</strong> les consultations en ostéopathie.
                         </p>
                         <p>
-                            Cependant, de plus en plus de mutuelles offrent un remboursement partiel ou total des séances.
+                            Cependant, de plus en plus de <strong>mutuelles offrent un remboursement partiel ou total des séances</strong>.
                             Les modalités varient largement selon les compagnies d'assurance et les contrats choisis.
                         </p>
                         <p>
-                            Pour bénéficier d'un éventuel remboursement, il est important de demander une facture à votre praticien à l'issue de la consultation.
+                            Pour bénéficier d'un éventuel remboursement, il vous sera <strong>remis une facture</strong> à l'issue de la consultation.
                         </p>
                     </div>
                 </div>
             </section>
-
             <!-- Le Cabinet -->
             <section id="le-cabinet" class="mt-32 text-center">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Le cabinet</h2>
+                    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Le cabinet</h2>
                 </div>
                 <div class="w-full mb-16 animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
                     <p>
-                        Ce cabinet se tient régulièrement informé des dernières avancées scientifiques afin de proposer une approche toujours plus cohérente et adaptée.<br/>
-                        Nous bénéficions de formations spécialisées pour accompagner tous les profils de patients, du nourrisson aux seniors, en passant par les sportifs et les femmes enceintes.<br/>
-                        Lors de la première consultation, un entretien approfondi et un examen clinique permettent à l'ostéopathe de vérifier que la prise en charge relève bien de sa compétence.<br/>
-                        En cas de doute, une orientation vers votre médecin traitant sera proposée pour un avis médical et, si nécessaire, des examens complémentaires.
+                        Ce cabinet se tient régulièrement informé des <strong>dernières avancées scientifiques</strong> afin de proposer une approche toujours plus cohérente et adaptée.<br/>
+                        Nous bénéficions de <strong>formations spécialisées</strong> pour accompagner tous les profils de patients, du nourrisson aux seniors, en passant par les sportifs et les femmes enceintes.<br/>
+                        Lors de la première consultation, un <strong>entretien approfondi</strong> et un <strong>examen clinique</strong> permettent à l'ostéopathe de vérifier que la prise en charge relève bien de sa compétence.<br/>
+                        En cas de doute, une <strong>orientation vers votre médecin traitant</strong> sera proposée pour un avis médical et, si nécessaire, des examens complémentaires.
                     </p>
                     <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mt-4">
                         <img src="assets/images/le-cabinet/PHOTO 5.png" class="w-full sm:w-[32%] max-h-[400px] object-cover rounded shadow-md" alt="Cabinet 1">
@@ -243,12 +248,12 @@
                 </div>
                 <div class="w-full animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
                     <p>
-                        Dans un souci d'innovation et de modernisation, notre cabinet utilise des appareils de mesure haute précision, notamment les technologies InBody et Kinvent.<br/>
-                        Ces outils permettent d'objectiver la pratique de l'ostéopathie en offrant un suivi personnalisé, précis et mesurable, que ce soit pour soulager une douleur, 
-                        améliorer la santé globale, optimiser la performance sportive ou accompagner la rééducation après une blessure ou une intervention.
+                        Dans un souci d'<strong>innovation et de modernisation</strong>, notre cabinet utilise des <strong>appareils de mesure haute précision</strong>, notamment les technologies <strong>InBody et Kinvent</strong>.<br/>
+                        Ces outils permettent d'<strong>objectiver la pratique de l'ostéopathie</strong> en offrant un suivi personnalisé, précis et mesurable, que ce soit pour <strong>soulager une douleur</strong>, 
+                        <strong>améliorer la santé globale</strong>, <strong>optimiser la performance sportive</strong> ou <strong>accompagner la rééducation</strong> après une blessure ou une intervention.
                     </p>
                     <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mt-4">
-                        <img src="assets/images/le-cabinet/PHOTO 8.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 1">
+                        <img src="assets/images/le-cabinet/PHOTO 2.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 1">
                         <img src="assets/images/le-cabinet/PHOTO 9.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 2">
                         <img src="assets/images/le-cabinet/PHOTO 10.png" class="max-h-[400px] w-full sm:w-[32%] object-cover rounded shadow-md" alt="Technologie 3">
                     </div>
@@ -258,7 +263,7 @@
             <!-- Infos & Rendez-vous -->
             <section id="rendez-vous" class="bg-white py-16 px-4 scroll-mt-32 w-full">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-[Verdana] text-[#0c2c56]">Prendre Rendez-vous & Infos Pratiques</h2>
+                    <h2 class="text-3xl md:text-4xl font-[Inter] text-[#0c2c56]">Prendre Rendez-vous & Infos Pratiques</h2>
                 </div>
                 <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-gray-700 text-base md:text-lg animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
                     <div class="text-center md:text-left space-y-2">
@@ -290,6 +295,7 @@
                 </div>
             </section>
         </main>
+
         <script>
             const burgerToggle = document.getElementById('burger-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
