@@ -63,101 +63,89 @@
             </div>
         </header>
 
-        <main>
-           <!-- Accueil -->
-<section id="accueil" class="relative px-4 py-12 bg-gradient-to-b from-[#0c2c56] to-[#dbe6f2] text-white overflow-hidden">
-    <div class="absolute top-0 left-0 w-full h-full bg-[#0c2c56] clip-diagonal z-0"></div>
+        <main class="max-w-[1500px] mx-auto">
+            <!-- Accueil -->
+            <section id="accueil" class="mt-8 mb-32 ml-4 mr-4"> 
+                <div class="flex justify-center mb-12">
+                    <div class="border-2 border-[#0c2c56] px-6 py-4 rounded-md shadow-md">
+                        <h1 class="text-3xl md:text-4xl font-inter text-[#0c2c56] font-bold">Ostéopathes à Cognac</h1>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 items-center mb-16 animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
+                    <div>
+                        <img src="assets/images/accueil/PHOTO 1.png" alt="Photo des ostéopathes" class="w-full max-h-[600px] object-cover rounded-md shadow-md" />
+                    </div>
+                    <div class="text-lg leading-relaxed">
+                        <div class="w-full bg-[#0c2c56] py-4 mb-6">
+                            <h2 class="text-3xl md:text-4xl font-inter text-white text-center m-0">Qui sommes-nous ?</h2>
+                        </div>
+                        <p>
+                            Tous deux diplômés de l'<strong>Institut des Hautes Études Ostéopathiques (IdHEO)</strong> de Nantes, nous avons d'abord exercé dans la région nantaise.<br /><br />
+                            Séduits par la <strong>qualité de vie</strong> et le <strong>dynamisme de Cognac</strong>, nous avons ensuite choisi de nous y installer.<br /><br />
+                            Originaires du <strong>Morbihan</strong> (Enora) et de <strong>Saintes</strong> (Victor), notre rencontre pendant nos études a fait naître un projet commun : <strong>créer un cabinet moderne, humain et accessible</strong>.<br /><br />
+                            Nous vous accueillons dans un espace <strong>dédié à l'écoute et au soin</strong>, avec des horaires étendus pour s'adapter à votre rythme (<strong>matin, pause déjeuner, soirée</strong>).
+                        </p>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 items-center animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
+                    <div class="order-2 md:order-1 text-lg leading-relaxed">
+                        <p>
+                        Nos <strong>approches sont complémentaires</strong> :<br /><br />
+                        <strong>Enora</strong> est spécialisée en <strong>ostéopathie périnatale, pédiatrique et post-partum</strong>, et se forme également en <strong>diététique</strong>.<br /><br />
+                        <strong>Victor</strong>, passionné de sport, accompagne les sportifs grâce à son expérience dans de <strong>multiples pratiques sportives</strong> (course à pied, cyclisme, triathlon)<br /><br />
+                        Le cabinet est équipé d'<strong>outils de mesure de haute précision</strong> pour un suivi <strong>objectif</strong>, adapté à vos besoins : <strong>santé, performance, récupération ou encore rééducation</strong>.
+                        </p>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <img src="assets/images/accueil/PHOTO 8.png" alt="Photo spécialités" class="w-full max-h-[600px] object-cover rounded-md shadow-md" />
+                    </div>
+                </div>
+            </section>
 
-    <div class="relative z-10 max-w-7xl mx-auto">
-        <div class="flex justify-center mb-12">
-            <div class="bg-white border-2 border-[#0c2c56] px-6 py-4 rounded-md shadow-md">
-                <h1 class="text-3xl md:text-4xl font-inter text-[#0c2c56] font-bold">Ostéopathes à Cognac</h1>
-            </div>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-8 items-center mb-16 animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
-            <div>
-                <img src="assets/images/accueil/PHOTO 1.png" alt="Photo des ostéopathes" class="w-full max-h-[600px] object-cover rounded-md shadow-md" />
-            </div>
-            <div class="text-lg leading-relaxed text-white">
-                <h2 class="text-3xl md:text-4xl font-inter font-semibold text-center mb-6">Qui sommes-nous ?</h2>
-                <p>
-                    Tous deux diplômés de l'<strong>Institut des Hautes Études Ostéopathiques (IdHEO)</strong> de Nantes, nous avons d'abord exercé dans la région nantaise.<br /><br />
-                    Séduits par la <strong>qualité de vie</strong> et le <strong>dynamisme de Cognac</strong>, nous avons ensuite choisi de nous y installer.<br /><br />
-                    Originaires du <strong>Morbihan</strong> (Enora) et de <strong>Saintes</strong> (Victor), notre rencontre pendant nos études a fait naître un projet commun : <strong>créer un cabinet moderne, humain et accessible</strong>.<br /><br />
-                    Nous vous accueillons dans un espace <strong>dédié à l'écoute et au soin</strong>, avec des horaires étendus pour s'adapter à votre rythme (<strong>matin, pause déjeuner, soirée</strong>).
-                </p>
-            </div>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-8 items-center animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out">
-            <div class="order-2 md:order-1 text-lg leading-relaxed text-white">
-                <p>
-                    Nos <strong>approches sont complémentaires</strong> :<br /><br />
-                    <strong>Enora</strong> est spécialisée en <strong>ostéopathie périnatale, pédiatrique et post-partum</strong>, et se forme également en <strong>diététique</strong>.<br /><br />
-                    <strong>Victor</strong>, passionné de sport, accompagne les sportifs grâce à son expérience dans de <strong>multiples pratiques sportives</strong> (course à pied, cyclisme, triathlon)<br /><br />
-                    Le cabinet est équipé d'<strong>outils de mesure de haute précision</strong> pour un suivi <strong>objectif</strong>, adapté à vos besoins : <strong>santé, performance, récupération ou encore rééducation</strong>.
-                </p>
-            </div>
-            <div class="order-1 md:order-2">
-                <img src="assets/images/accueil/PHOTO 8.png" alt="Photo spécialités" class="w-full max-h-[600px] object-cover rounded-md shadow-md" />
-            </div>
-        </div>
-    </div>
-    <div class="absolute bottom-0 left-0 w-full h-[4px] bg-[#0c2c56] z-10"></div>
-</section>
-
-<!-- À propos -->
-<section id="a-propos" class="relative px-4 py-16 bg-[#ffe4e1] to-white text-gray-800 overflow-hidden">
-    <div class="absolute top-0 left-0 w-full overflow-hidden leading-none">
-  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="w-full h-20 fill-[#0c2c56]">
-    <path d="M0,0 C300,100 900,0 1200,100 L1200,0 L0,0 Z"></path>
-  </svg>
-</div>
-    <div class="max-w-5xl mx-auto z-10 relative">
-        <div class="w-full bg-[#0c2c56] py-4 mb-6 rounded-md shadow">
-            <h2 class="text-3xl md:text-4xl font-inter text-white text-center">Qu'est-ce que l'ostéopathie ?</h2>
-        </div>
-        <div class="text-center animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-base md:text-lg leading-relaxed space-y-4">
-            <p><strong>L'ostéopathie</strong> est une méthode de soin <strong>manuelle</strong> visant à <strong>améliorer la mobilité</strong> du corps et <strong>soulager les douleurs</strong>, notamment musculo-squelettiques.</p>
-            <p>Elle repose sur une <strong>approche globale</strong> du corps, en considérant les <strong>liens entre les différents systèmes</strong> (musculaire, digestif, crânien, etc.).</p>
-            <p>Un ensemble de <strong>techniques adaptées</strong> à chaque patient est utilisé selon la douleur, les antécédents et les attentes.</p>
-            <p>Ces techniques incluent des <strong>mobilisations articulaires et musculaires</strong>, <strong>manipulations abdominales, crâniennes</strong> et <strong>tissulaires</strong>.</p>
-            <p><strong>L'ostéopathie ne remplace pas</strong> la médecine conventionnelle mais la <strong>complète efficacement</strong>.</p>
-            <p>Elle vise à <strong>retrouver un équilibre</strong>, <strong>prévenir les douleurs</strong> et <strong>limiter les récidives</strong>.</p>
-        </div>
-
-        <div class="w-full bg-[#0c2c56] py-4 my-12 rounded-md shadow">
-            <h2 class="text-3xl md:text-4xl font-inter text-white text-center">L'ostéopathie à votre service</h2>
-        </div>
-
-        <div class="text-center animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out text-base md:text-lg leading-relaxed space-y-4">
-            <p>
-                L'ostéopathie s'adresse à <strong>tous</strong> : <strong>nourrissons, enfants, adolescents, adultes, seniors</strong> et <strong>sportifs</strong>.<br />
-                Chaque personne bénéficie d'un <strong>accompagnement personnalisé</strong> selon ses <strong>besoins</strong>, son <strong>mode de vie</strong> et son <strong>état de santé</strong>.
-            </p>
-            <p>Cette approche permet notamment de :</p>
-            <ul class="list-disc list-inside text-left max-w-3xl mx-auto space-y-2">
-                <li><strong>Comprendre et prévenir les douleurs</strong></li>
-                <li><strong>Améliorer la mobilité</strong> et la <strong>posture</strong></li>
-                <li><strong>Préparer</strong> et <strong>accompagner</strong> une pratique sportive</li>
-                <li><strong>Favoriser la récupération</strong> après un traumatisme ou une opération</li>
-                <li><strong>Réduire le stress</strong> et l'anxiété</li>
-                <li><strong>Prévenir les déséquilibres</strong> liés à une activité sédentaire</li>
-                <li><strong>Apaiser les douleurs</strong> liées à la grossesse ou au post-partum</li>
-                <li><strong>Accompagner le développement</strong> psycho-moteur des enfants</li>
-                <li>
-                    Compléter certains <strong>traitements médicaux</strong>, notamment en cas de :
-                    <ul class="list-disc list-inside pl-6 mt-2 space-y-1">
-                        <li><strong>Troubles musculo-squelettiques</strong> : dos, tensions, douleurs articulaires…</li>
-                        <li><strong>Troubles crâniens</strong> : migraines, vertiges, troubles ORL, ATM…</li>
-                        <li><strong>Troubles digestifs</strong> : ballonnements, reflux, douleurs abdominales…</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
+            <!-- À propos -->
+            <section id="a-propos" class="scroll-mt-24 my-32">
+                <div class="w-full bg-[#0c2c56] py-4 mb-6">
+                    <h2 class="text-3xl md:text-4xl font-inter text-white text-center m-0">Qu'est-ce que l'ostéopathie ?</h2>
+                </div>
+                <div class="mx-auto text-center animate-on-scroll slide-left opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                    <p><strong>L'ostéopathie</strong> est une méthode de soin <strong>manuelle</strong> visant à <strong>améliorer la mobilité</strong> du corps et <strong>soulager les douleurs</strong>, notamment musculo-squelettiques.</p>
+                    <p>Elle repose sur une <strong>approche globale</strong> du corps, en considérant les <strong>liens entre les différents systèmes</strong> (musculaire, digestif, crânien, etc.).</p>
+                    <p>Un ensemble de <strong>techniques adaptées</strong> à chaque patient est utilisé selon la douleur, les antécédents et les attentes.</p>
+                    <p>Ces techniques incluent des <strong>mobilisations articulaires et musculaires</strong>, <strong>manipulations abdominales, crâniennes</strong> et <strong>tissulaires</strong>.</p>
+                    <p><strong>L'ostéopathie ne remplace pas</strong> la médecine conventionnelle mais la <strong>complète efficacement</strong>.</p>
+                    <p>Elle vise à <strong>retrouver un équilibre</strong>, <strong>prévenir les douleurs</strong> et <strong>limiter les récidives</strong>.</p>
+                </div>
+                <div class="min-h-screen flex flex-col justify-center items-center px-4">
+                    <div class="w-full bg-[#0c2c56] py-4 mb-6">
+                        <h2 class="text-3xl md:text-4xl font-inter text-white text-center m-0">L'ostéopathie à votre service</h2>
+                    </div>
+                    <div class="text-center animate-on-scroll slide-right opacity-0 transition-opacity duration-700 ease-out text-gray-700 text-base md:text-lg leading-relaxed space-y-4">
+                        <p>
+                            L'ostéopathie s'adresse à <strong>tous</strong> : <strong>nourrissons, enfants, adolescents, adultes, seniors</strong> et <strong>sportifs</strong>.<br />
+                            Chaque personne bénéficie d'un <strong>accompagnement personnalisé</strong> selon ses <strong>besoins</strong>, son <strong>mode de vie</strong> et son <strong>état de santé</strong>.
+                        </p>
+                        <p>Cette approche permet notamment de :</p>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Comprendre et prévenir les douleurs</strong></li>
+                            <li><strong>Améliorer la mobilité</strong> et la <strong>posture</strong></li>
+                            <li><strong>Préparer</strong> et <strong>accompagner</strong> une pratique sportive</li>
+                            <li><strong>Favoriser la récupération</strong> après un traumatisme ou une opération</li>
+                            <li><strong>Réduire le stress</strong> et l'anxiété</li>
+                            <li><strong>Prévenir les déséquilibres</strong> liés à une activité sédentaire</li>
+                            <li><strong>Apaiser les douleurs</strong> liées à la grossesse ou au post-partum</li>
+                            <li><strong>Accompagner le développement</strong> psycho-moteur des enfants</li>
+                            <li>
+                            Compléter certains <strong>traitements médicaux</strong>, notamment en cas de :
+                                <ul class="list-disc list-inside pl-6 mt-2 space-y-1">
+                                    <li><strong>Troubles musculo-squelettiques</strong> : dos, tensions, douleurs articulaires…</li>
+                                    <li><strong>Troubles crâniens</strong> : migraines, vertiges, troubles ORL, ATM…</li>
+                                    <li><strong>Troubles digestifs</strong> : ballonnements, reflux, douleurs abdominales…</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
             <!-- Les Consultations -->
             <section id="les-consultations" class="scroll-mt-24 my-32 ml-4 mr-4">
